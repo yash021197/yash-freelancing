@@ -1,2 +1,2 @@
 export function Arrow({ diagonal = false }: { diagonal?: boolean }) { return <span className={`arrow ${diagonal ? "diagonal" : ""}`} aria-hidden="true">→</span>; }
-export function Mark() { return <span className="mark" aria-hidden="true"><i /><i /><i /></span>; }
+export function Mark() { return <svg className="mark" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M5 5.5 14 14l9-8.5M14 14v9" stroke="currentColor" strokeWidth="3.4" strokeLinecap="square" strokeLinejoin="round" /><path d="M5 5.5h4.2M18.8 5.5H23" stroke="currentColor" strokeWidth="3.4" strokeLinecap="square" /></svg>; }
